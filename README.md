@@ -1,17 +1,18 @@
 # html5-pipe-puzzle
 
-A pipe-rotation puzzle in vanilla JavaScript and Canvas 2D, made for a promo landing and a Telegram Mini App.
+Головоломка с поворотом труб на чистом JavaScript и Canvas 2D для промо-лендинга и
+Telegram Mini App.
 
 ![](docs/gameplay.gif)
 
-- level generator with a guaranteed solvable path and seeded randomness (`?seed=`)
-- flood fill runs on every move to light up connected pipes
-- retina-sharp canvas, touch-friendly, works inside Telegram WebView
-- deterministic `renderAt(t)` hook for recording gameplay videos
-- about 100 lines, no dependencies, no build step
+- генератор уровней с гарантированно проходимым путём и воспроизводимой случайностью (`?seed=`)
+- заливка на каждом ходу подсвечивает соединённые трубы
+- чёткий канвас на retina-экранах, удобно пальцем, работает внутри Telegram WebView
+- детерминированный хук `renderAt(t)` для записи геймплея в видео
+- около 100 строк, без зависимостей и без сборки
 
 | | |
 |---|---|
 | ![](docs/game_g0.jpg) | ![](docs/game_g2.jpg) |
 
-Open `index.html` in a browser.
+Откройте `index.html` в браузере.
